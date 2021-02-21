@@ -1,0 +1,414 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background:#181943 ;
+}
+
+li{
+  list-style-type: none;
+}
+
+nav{
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  font-family: Nunito Sans;
+  background-color: #181943;
+}
+
+
+nav .navi{
+  display: flex;
+  justify-content: space-around;
+  width:30%;
+}
+
+nav .bar {
+  display: flex;
+  justify-content:space-around;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 742px;
+  bottom: 236px;
+  font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+.navi input{
+  position: absolute;
+  left: 43.27%;
+  right: 38.07%;
+  top: 20%;
+  bottom: 16.67%;
+  background: #252652;
+  border-radius: 5px;
+  width:280px;
+  color: white;
+  border-color:#252652 ;
+  height:38px;
+  border:hidden;
+}
+
+#upgrade{
+  position: absolute;
+  border: 1px solid #07A6F0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 38px;
+  width: 106px;
+  left: 1277px;
+  top: 12px;
+  background: #181943;
+  border-radius: 5px;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #07A6F0;
+}
+
+.profile{
+  position: absolute;
+width: 400px;
+height: 548px;
+left: 550px;
+top: 125px;
+}
+
+.profilepic{
+ left: 138px;
+ right: 134px;
+ bottom: 420px;
+ width: 128px;
+ height: 128px;
+ position: absolute;
+}
+
+.name input{
+  position: absolute;
+  left:123px;
+  top:135px;
+  right:119px;
+  bottom:364px;
+  width: 158px;
+  height:49px;
+  font-size: 36px;
+  border-color:  #252652;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+  border:hidden;
+}
+
+.number input{
+  border-color:  #252652;
+  position:absolute;
+  top:187px;
+  left:127px;
+  right:123px;
+  bottom:336px;
+  border:hidden;
+  color: white;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+.plan{
+  position: absolute;
+  width: 400px;
+  height: 64px;
+  top: 230px;
+  bottom: 254px;
+  border-radius: 5px;
+  background: #252652;
+}
+
+.price{
+  position: absolute;
+  top:11px;
+  bottom: 28px;
+  left:20px;
+  right:89px;
+  width:291px;
+  height:25px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  background: #252652;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #9798C2;
+
+}
+
+.valid{
+  top:37px;
+  bottom: 8px;
+  left:20px;
+  right:227px;
+  width: 153px;
+  background: #252652;
+  height: 19px;
+  position: absolute;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #9798C2;
+}
+
+.btn{
+  top:297px;
+  bottom: 196px;
+  background: linear-gradient(180deg, #07A6F0 0%, #3136AD 100%), #07A6F0;
+  border-radius: 5px;
+  position: absolute;
+  height: 55px;
+  width: 400px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button{
+  height: 55px;
+  width: 400px;
+  top: 297px;
+  bottom:196px;
+  position: absolute;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background: linear-gradient(180deg, #07A6F0 0%, #3136AD 100%), #07A6F0;
+  border-radius: 5px;
+  border:hidden;
+  color:white;
+}
+
+#view{
+  top:377px;
+  bottom:116px;
+  position: absolute;
+  background: #252652;
+  border-radius: 5px;
+  height:55px;
+  width: 400px;
+  text-align: left;
+  padding-left: 17px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #9798C2;
+}
+
+#varr,#larr,#oarr{
+  position: absolute;
+left: 377.59px;
+right: 15px;
+top: 22px;
+bottom: 21px;
+background:#252652;
+color: #9798C2;
+}
+
+
+#login{
+  top:435px;
+  bottom:58px;
+  position: absolute;
+  background: #252652;
+  border-radius: 5px;
+  height:55px;
+  width: 400px;
+  text-align: left;
+  padding-left: 17px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #9798C2;
+}
+
+#logout{
+  top:493px;
+  position: absolute;
+  background: #252652;
+  border-radius: 5px;
+  height:55px;
+  width: 400px;
+  text-align: left;
+  padding-left: 17px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #9798C2;
+}
+
+.contact input{
+height: 22px;
+width: 129px;
+left: 511px;
+top: 791px;
+border-radius: nullpx;
+position: absolute;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.5;
+border:hidden;
+}
+
+.install input{
+  position: absolute;
+  border: hidden;
+  width: 116px;
+  height: 22px;
+  left: 678px;
+  top: 791px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+#fbtn{
+  top:819px;
+  left:511px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: hidden;
+  background: #464779;
+  border-radius: 5px;
+}
+
+#ffb{
+  position: absolute;
+left: 523px;
+right: 962px;
+top: 825px;
+bottom: 146px;
+opacity: 0.8;
+background:#464779 ;
+}
+
+#twit{
+  position: absolute;
+left: 568px;
+right: 908px;
+top: 829px;
+bottom: 150.68px;
+opacity: 0.8;
+background:#464779 ;
+}
+
+#tbtn{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 561px;
+top: 819px;
+background: #464779;
+border-radius: 5px;
+border: hidden;
+}
+
+.ios input{
+  position: absolute;
+  height: 43.333335876464844px;
+  width: 150px;
+  left: 679px;
+  top: 819px;
+  border-radius: 0px;  
+  background: #464779;
+  border:hidden;
+  border-radius: 5px;
+}
+
+#iapple{
+  position:absolute;
+  left:692.72px;
+  bottom:166.83px;
+  top:825.46px;
+  right:737.07px;
+  background: #464779;
+}
+
+.android input{
+  position: absolute;
+  height: 43.333335876464844px;
+  width: 150px;
+  left: 839px;
+  top: 819px;
+  border-radius: 5px;  
+background: #464779;
+border:hidden;
+}
+
+#andro{
+  left:849.76px;
+  background: #464779;
+  bottom:145.17px;
+  right:521.86px;
+  top:826.46px;
+  position: absolute;
+}
+
+.lic{
+  top:894px;
+  width:1500px;
+  height:103px;
+  position: absolute;
+  font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.8;
+}
